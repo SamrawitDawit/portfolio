@@ -1,0 +1,32 @@
+
+.container {
+    position: relative;
+    background-image: url("/memoire-demo/memoire1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity here */
+    z-index: 1;
+}
+
+.container > *:not(.overlay) {
+    position: relative;
+    z-index: 2;
+}
+
+  .image {
+    margin-top: 40px;
+    width: 350px;
+    height: 650px;
+    border-radius: 10px; /* Optional */
+  }
+  
