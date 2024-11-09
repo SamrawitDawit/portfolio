@@ -11,13 +11,15 @@ const imagePaths = [
 
 export default function KendilPharmaDemo() {
   return (
-    <Swiper
+    <div className={styles.container}>
+      <h1 className={styles.title}>Kendil Pharma Demo</h1>
+      <Swiper
         spaceBetween={30} 
         slidesPerView={3} 
         loop={true} 
         autoplay={{
           delay: 1.5, 
-          pauseOnMouseEnter: true,
+          // pauseOnMouseEnter: false,
         }}
         speed={4000} 
         freeMode={true}
@@ -32,5 +34,7 @@ export default function KendilPharmaDemo() {
         </SwiperSlide>
       ))}
     </Swiper>
+    </div>
+    
   );
 }

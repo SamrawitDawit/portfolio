@@ -104,9 +104,6 @@ const Home: React.FC = () => {
       Hi! I’m Samrawit "Samri"—a driven Software Engineering student at Addis Ababa University, specializing in full-stack development and cloud solutions. With a foundation in data structures and algorithms, honed by solving 600+ LeetCode problems and a year with A2SV, I excel in building optimized, high-performance systems.
       </p>
       <p className={styles.aboutText}>
-      My expertise includes backend development in Go, RESTful API design, and mobile app development with Flutter. As a backend engineer at A2SV, I gained deep experience in unit testing, code reviews, and collaborative workflows.
-      </p>
-      <p className={styles.aboutText}>
       Now, I’m diving into AI to create ethical, impactful tools that address real-world challenges for vulnerable communities. Outside of work, I enjoy light-hearted movies, learning Spanish, and catching up with friends. I'm excited to explore new opportunities where I can contribute to meaningful projects and keep growing.
       </p>
     </section>
@@ -221,7 +218,7 @@ const Home: React.FC = () => {
             <Image src="/chuchAI.png" alt="Chuch AI" width={315} height={480} className={styles.projectImage} />
             <div className={styles.overlay}>
               <h3>Chuch AI</h3>
-              <p>An educational chatbot designed to engage kids with fun math and general knowledge questions while providing feedback and telling stories. It's an interactive tool to make learning fun!</p>
+              <p>An educational chatbot designed to engage kids with fun math and general knowledge questions while providing feedback and telling stories.</p>
               <div className={styles.projectLinks}>
                 <a href="https://chuch-ai.vercel.app/" target="_blank" rel="noopener noreferrer">
                   <FaExternalLinkAlt />
@@ -268,7 +265,7 @@ const Home: React.FC = () => {
             <Image src="/Safe_haven_logo.png" alt="Safe Haven" width={315} height={480} className={styles.projectImage} />
             <div className={styles.overlay}>
               <h3>Safe Haven</h3>
-              <p>An ongoing project aimed at supporting survivors of sexual assault by offering a safe space for reporting, interacting with counselors, and accessing educational resources. Focused on privacy and security, Safe Haven provides crucial emotional and psychological support.</p>
+              <p>"Empowering Survivors with Secure Support" A robust, secure platform designed for survivors to report incidents anonymously, connect with counselors, and access educational content. Focused on protecting user data with strong encryption and enhancing community well-being.</p>
               <div className={styles.projectLinks}>
                 <a href="https://github.com/SamrawitDawit/Safe-Haven" target="_blank" rel="noopener noreferrer">
                   <FaGithub />
