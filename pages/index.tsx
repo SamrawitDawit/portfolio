@@ -135,7 +135,7 @@ const Home: React.FC = () => {
       />
       <div className={styles.caption}>
         <h3>African to Silicon Valley (A2SV)</h3>
-        <p>DSA trainee and Backend developer</p>
+        <p>Head of Education</p>
         <a
           href="https://a2sv.org" 
           target="_blank"
@@ -188,6 +188,51 @@ const Home: React.FC = () => {
         </a>
       </div>
     </div>
+
+    <div className={styles.experienceCard}>
+      <Image
+        src="/AAiT.jpg" 
+        alt="SiTE"
+        width={130}
+        height={130}
+        className={styles.organizationImage}
+      />
+      <div className={styles.caption}>
+        <h3>School of Information Technology and Engineering
+        </h3>
+        <p>Full Stack developer intern</p>
+        <a
+          href="http://www.aait.edu.et/school-information-technology-engineering-site" 
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.organizationLink}
+        >
+          Visit SiTE
+        </a>
+      </div>    
+    </div>
+    <div className={styles.experienceCard}>
+      <Image
+        src="/iCog.jpg" 
+        alt="iCogLabs"
+        width={130}
+        height={130}
+        className={styles.organizationImage}
+      />
+      <div className={styles.caption}>
+        <h3>iCog Labs
+        </h3>
+        <p>AI research intern</p>
+        <a
+          href="https://icog-labs.com/" 
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.organizationLink}
+        >
+          Visit iCog
+        </a>
+      </div>
+      </div>
   </div>
 </section>
 
